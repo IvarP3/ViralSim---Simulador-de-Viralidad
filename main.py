@@ -100,10 +100,10 @@ def renderizar_sidebar() -> dict:
     st.sidebar.subheader("Parámetros de Simulación")
     num_pasos = st.sidebar.slider(
         "Número de pasos a simular",
-        min_value=10,
+        min_value=1,
         max_value=200,
         value=50,
-        step=10,
+        step=1,
         help="Cantidad de iteraciones de la simulación"
     )
     
