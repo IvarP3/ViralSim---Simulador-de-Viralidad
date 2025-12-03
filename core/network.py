@@ -2,7 +2,6 @@
 Módulo para visualización de red social usando NetworkX
 """
 import networkx as nx
-import matplotlib.pyplot as plt
 import numpy as np
 from typing import List
 
